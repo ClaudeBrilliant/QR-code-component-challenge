@@ -1,38 +1,37 @@
-body {
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+html, body {
+    height: 100%;
+    margin: 0;
     background-color: hsl(212, 45%, 89%);
-}
-
-.container {
+    position: relative;
+  }
+  
+  .container {
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    height: fit-content;
+  
     background-color: white;
     border-radius: 10px;
     text-align: center;
     padding: 20px;
-    max-width: 400px;
-    position: absolute ;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
-
-
-
-}
-
-.container img {
+  }
+  
+  .container img {
     max-width: 100%;
-      height: auto;
-      border-radius: 10px;
-    
-}
-
-h1 {
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  h1 {
     font-size: 35px;
     color: #2d2d2d;
-}
-
-p {
+  }
+  
+  p {
     font-size: 25px;
-
-}
+  }
+  
